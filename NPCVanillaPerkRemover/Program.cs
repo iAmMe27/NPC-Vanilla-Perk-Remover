@@ -18,7 +18,47 @@ namespace NPCVanillaPerkRemover
         
         [SettingName("Perk Blacklist")]
         [Tooltip("Enter Editor IDs of perks you want this patcher to ignore.")]
-        public List<FormLink<IPerkGetter>> PerkBlacklist = [];
+        public List<FormLink<IPerkGetter>> PerkBlacklist = [
+            FormKey.Factory("1046BD:Skyrim.esm"),
+            FormKey.Factory("109D7A:Skyrim.esm"),
+            FormKey.Factory("109D82:Skyrim.esm"),
+            FormKey.Factory("109D83:Skyrim.esm"),
+            FormKey.Factory("109D84:Skyrim.esm"),
+            FormKey.Factory("109D85:Skyrim.esm"),
+            FormKey.Factory("015CAE:Dawnguard.esm"),
+            FormKey.Factory("0D5F1C:Skyrim.esm"),
+            FormKey.Factory("0D205B:Skyrim.esm"),
+            FormKey.Factory("0153D1:Skyrim.esm"),
+            FormKey.Factory("0153D0:Skyrim.esm"),
+            FormKey.Factory("0153CF:Skyrim.esm"),
+            FormKey.Factory("0153CE:Skyrim.esm"),
+            FormKey.Factory("0153CD:Skyrim.esm"),
+            FormKey.Factory("0F11A9:Skyrim.esm"),
+            FormKey.Factory("01A33C:Dawnguard.esm"),
+            FormKey.Factory("10C708:Skyrim.esm"),
+            FormKey.Factory("1069BB:Skyrim.esm"),
+            FormKey.Factory("0138C3:Dawnguard.esm"),
+            FormKey.Factory("017745:Dragonborn.esm"),
+            FormKey.Factory("017744:Dragonborn.esm"),
+            FormKey.Factory("017743:Dragonborn.esm"),
+            FormKey.Factory("017740:Dragonborn.esm"),
+            FormKey.Factory("01773F:Dragonborn.esm"),
+            FormKey.Factory("01773E:Dragonborn.esm"),
+            FormKey.Factory("05CEC0:Skyrim.esm"),
+            FormKey.Factory("05CEBE:Skyrim.esm"),
+            FormKey.Factory("0EB24A:Skyrim.esm"),
+            FormKey.Factory("03D5B4:Dragonborn.esm"),
+            FormKey.Factory("10FE04:Skyrim.esm"),
+            FormKey.Factory("0E997B:Skyrim.esm"),
+            FormKey.Factory("0E863F:Skyrim.esm"),
+            FormKey.Factory("1041A9:Skyrim.esm"),
+            FormKey.Factory("01CAEA:Dragonborn.esm"),
+            FormKey.Factory("03D5CD:Dragonborn.esm"),
+            FormKey.Factory("109C1B:Skyrim.esm"),
+            FormKey.Factory("029EE4:Dragonborn.esm"),
+            FormKey.Factory("10E001:Skyrim.esm"),
+            FormKey.Factory("10BEA8:Skyrim.esm"),
+        ];
     }
     
     public class Program
